@@ -19,10 +19,24 @@ body {
     width: 980px;
     flex-basis: 60px;
     align-items: center;
+    background-color: #1F2937;
+
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
 }
 
 .navigation {
     list-style: none;
     display: flex;
     gap: 30px;
+
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
 }
