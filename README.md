@@ -5,3 +5,5 @@ The main goal of the project was to verify the understanding of the flexbox conc
 
 ## Cíl projektu
 Cílem projektu bylo utvrdit si znalosti flexboxu a začít pracovat samostatně. Podkladem pro landing page byl čistě obrázek a seznam fontů/barev, ale žádné další pomocné instrukce.
+
+Edit 1: Added some commentary to style.css explaining my thoughs process.
