@@ -19,7 +19,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 980px;
+    width: 1020px;
     flex-basis: 60px;
     align-items: center;
     background-color: #1F2937;
@@ -48,6 +48,7 @@ body {
 
 h1 {
     font-size: 48px;
+    line-height: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -62,6 +63,16 @@ button {
     font-weight: 700;
 }
 
+.hero-container {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 80px;
+    width: 1020px;
+    padding: 100px 0px;
+}
+
 .hero-text p {
     color: #E5E7EB;
+    margin: 12px 0px;
 }
