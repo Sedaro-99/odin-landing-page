@@ -6,11 +6,9 @@
     box-sizing: border-box;
 }
 
+/* No need to flex body. I won't use any section stretching or gap between sections. */
 body {
     font-family: "Roboto", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-size: 18px;
 }
 
@@ -20,9 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1020px;
-    flex-basis: 60px;
+    height: 60px;
     align-items: center;
-    background-color: #1F2937;
 
     font-size: 24px;
     color: #F9FAF8;
@@ -34,6 +31,7 @@ body {
     display: flex;
     gap: 30px;
 
+    /* Adjusting font size and weight here is necessary only because Header Logo does not have its own class */
     font-size: 18px;
     color: #E5E7EB;
     font-weight: normal;
@@ -66,7 +64,6 @@ button {
 .hero-container {
     display: flex;
     align-items: center;
-    background-color: #1F2937;
     gap: 80px;
     width: 1020px;
     padding: 100px 0px;
@@ -75,4 +72,22 @@ button {
 .hero-text p {
     color: #E5E7EB;
     margin: 12px 0px;
+}
+
+/* Hero adjusting */
+
+/* 
+   I can go with two options here. 
+   
+   1) .hero-wrapper with display: block & margin: auto on children 
+   2) display: flex, flex-direction: column & align-items: center
+   
+   Here I choose flex only for the sake of testing/understanding flex. 
+*/
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
 }
