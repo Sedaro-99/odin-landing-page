@@ -132,6 +132,24 @@ h2 {
     flex-basis: 170px;
 }
 
+/* Quote section styling */
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: left;
+}
+
+.author {
+    text-align: right;
+    font-weight: 900;
+}
+
 /* Footer styling  */
 
 footer {
