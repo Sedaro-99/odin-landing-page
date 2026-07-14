@@ -104,3 +104,8 @@ button {
     display: flex;
     width: 1020px;
 }
+
+.info-carousel p {
+    text-align: center;
+    color: #606060;
+}
