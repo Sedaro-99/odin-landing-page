@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
 }
 
@@ -17,9 +18,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1020px;
     height: 60px;
-    align-items: center;
 
     font-size: 24px;
     color: #F9FAF8;
@@ -27,10 +28,8 @@ body {
 }
 
 .navigation {
-    list-style: none;
     display: flex;
     gap: 30px;
-
     /* Adjusting font size and weight here is necessary only because Header Logo does not have its own class */
     font-size: 18px;
     color: #E5E7EB;
@@ -47,31 +46,32 @@ body {
 h1 {
     font-size: 48px;
     line-height: 48px;
-    font-weight: 900;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 button {
+    padding: 8px 32px;
     background-color: #3882F6;
     border: none;
-    padding: 8px 32px;
     border-radius: 8px;
-    color: #F9FAF8;
+    /* Apparently buttons do not inherit body font-size */
     font-size: 18px;
+    color: #F9FAF8;
     font-weight: 700;
 }
 
 .hero-container {
     display: flex;
     align-items: center;
-    gap: 80px;
     width: 1020px;
+    gap: 80px;
     padding: 100px 0px;
 }
 
 .hero-text p {
-    color: #E5E7EB;
     margin: 12px 0px;
+    color: #E5E7EB;
 }
 
 /* Hero adjusting */
@@ -110,22 +110,22 @@ button {
 }
 
 .info-carousel p {
+    margin-top: 8px;
     text-align: center;
     color: #606060;
-    margin-top: 8px;
 }
 
 h2 {
     font-size: 36px;
-    font-weight: 900;
     color: #1F2937;
+    font-weight: 900;
 }
 
 .info-image {
+    display: block;
+    margin: auto;
     border: 4px solid #3882F6;
     border-radius: 12px;
-    margin: auto;
-    display: block;
 }
 
 .info-item {
@@ -152,16 +152,16 @@ h2 {
     width: 780px;
     margin: auto;
     padding-right: 32px;
-    text-align: right;
     font-size: 24px;
     font-weight: 900;
+    text-align: right;
 }
 
 /* Footer styling  */
 
 footer {
-    text-align: center;
     padding: 40px 0;
+    text-align: center;
     color: #E5E7EB;
     background-color: #1F2937;
 }
