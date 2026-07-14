@@ -66,7 +66,7 @@ button {
     align-items: center;
     width: 1020px;
     gap: 80px;
-    padding: 100px 0px;
+    padding: 40px 0px;
 }
 
 .hero-text p {
@@ -199,4 +199,8 @@ footer {
     text-align: center;
     color: #E5E7EB;
     background-color: #1F2937;
+}
+
+footer a {
+    color: #E5E7EB;
 }
