@@ -135,10 +135,13 @@ h2 {
 /* Quote section styling */
 
 .quote-container {
+    padding: 120px 0;
     background-color: #E5E7EB;
 }
 
 .quote {
+    width: 780px;
+    margin: auto;
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
@@ -146,7 +149,11 @@ h2 {
 }
 
 .author {
+    width: 780px;
+    margin: auto;
+    padding-right: 32px;
     text-align: right;
+    font-size: 24px;
     font-weight: 900;
 }
 
