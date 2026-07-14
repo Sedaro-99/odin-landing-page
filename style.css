@@ -159,8 +159,21 @@ h2 {
 
 /* CTA section styling */
 
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
 .cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1020px;
+    padding: 50px 120px;
     background-color: #3882F6;
+    border-radius: 8px;
     color: #F9FAF8;
 }
 
@@ -170,10 +183,12 @@ h3 {
 }
 
 .cta-content p {
+    margin-top: 4px;
     color: #E5E7EB;
 }
 
 .cta-button {
+    padding: 8px 32px;
     border: 2px solid #F9FAF8;
 }
 
