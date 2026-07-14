@@ -151,6 +151,7 @@ h2 {
 .author {
     width: 780px;
     margin: auto;
+    margin-top: 12px;
     padding-right: 32px;
     font-size: 24px;
     font-weight: 900;
