@@ -191,6 +191,11 @@ h3 {
 .cta-button {
     padding: 8px 32px;
     border: 2px solid #F9FAF8;
+    border-radius: 8px;
+
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: 700;
 }
 
 /* Footer styling  */
